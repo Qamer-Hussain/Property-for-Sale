@@ -1,0 +1,17 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sale-card {
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.sale-card:hover {
+  transform: rotateY(5deg);
+}
+
+img {
+  max-height: 250px;
+  object-fit: cover;
+}
